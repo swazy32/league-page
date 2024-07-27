@@ -25,7 +25,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID": "1013295367955615744"
+      "managerID": "1013295367955615744",
       "name": "Sean McShane",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Naperville, IL", // (optional)
