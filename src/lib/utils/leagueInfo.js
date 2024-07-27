@@ -7,7 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Founded in 2024, the Ruggs & Rice Driving Academy enters its inaugural season as a keeper league. We aim to build a lively and competitive league for years to come as we compete to hoist the TROPHY.</p>
+  <p>Founded in 2024, the Ruggs & Rice Driving Academy enters its inaugural season as a keeper league. We aim to build a lively and competitive league for years to come as we compete to win The Gridiron Grand Prix.</p>
   <p>The league brings in a majority of managers that all attended the University of Illinois while adding a singular manager from Arizona State.</p>
   <p>In this league, the stakes are high and the competition fierce, as you’ll have the opportunity to build a team for the ages. Unlike traditional leagues, our Keeper League allows you to retain a select number of players from season to season, enabling you to develop and nurture your roster into a powerhouse. This dynamic format not only rewards shrewd draft picks and savvy trades but also requires forward-thinking management as you balance immediate success with long-term potential.</p>
   <p>In our league, every decision counts—whether it’s scouting emerging talent, negotiating trades, or deciding which players to keep. Your ability to forecast player performances, manage injuries, and adapt to the ever-evolving NFL landscape will be crucial in cementing your legacy. Embrace the challenge, and prepare to immerse yourself in a season of intense strategy and exhilarating gameplay. With every win, you’ll not only climb the standings but also etch your name into the annals of our Keeper League's storied history.</p>
