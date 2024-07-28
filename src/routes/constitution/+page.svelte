@@ -7,6 +7,7 @@
     let five, fiveOne;
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
+    let eight, eightOne, eightTwo, eightThree;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -134,15 +135,20 @@
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+<!--        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>   -->
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>7.2 Payout</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenThree)}>7.3 Raising Dues</h4>
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Keeper Rules</h3>
     
-    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>8.1 Declaring Keepers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>8.2 Keeper Values</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightThree)}>8.3 Keeper Eligibility</h4>
+
     <hr />
     
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
@@ -274,7 +280,7 @@
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
     
     <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. The top 2 teams will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
     
     <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
@@ -282,7 +288,6 @@
     <ol>
         <li>Points For</li>
         <li>Head 2 Head Record</li>
-        <li>Division Record</li>
         <li>Total Points Against</li>
         <li>Coin Flip</li>
         <li>Duel to the death</li>
@@ -296,29 +301,49 @@
     <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
+    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but not generally grounds for removal.</p>
     
     <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
+    <p>When a manager needs to be replaced, the commissioner(s) will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a keeper commitment and will be very active within the league.</p>
+
+<!--
     <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
     <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+-->
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <p>League dues are set at {dues}$. Dues are collected through the commissioner. All managers must be fully paid up before the start of regular season.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
+        <li>1st place: {dues * 7.5}$</li>
+        <li>2nd place: {dues * 1.5}$</li>
         <li>3rd place: {dues}$</li>
     </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
+    
     
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+
+
+    <h2 class="sectionHeading" bind:this={eight}>Section 8 Keeper Rules</h2>
+
+    <h3 bind:this={eightOne}>8.1 Declaring Keepers</h3>
+    <p>A maximum of 3 players can be kept for the next season. Keeper selections must be declared one week before the draft.</p>
+
+    <h3 bind:this={eightTwo}>8.2 Keeper Values</h3>
+    <p>Keeper value will be determined by their draft capital from the previous draft, subtracting one round from the previous draft, and then an additional round for each year the player is kept.</p>
+    <ul>
+        <li>For example, a player chosen in the 4th round of the 2024 draft that is declared as a keeper in 2025 will take place of that team’s 3rd round pick. In 2026, that player will cost a 1st round pick if kept.</li>
+    </ul>
+    <p>A player will retain their draft capital, as well as any multi-year keeper premium, if they are traded. A player will also retain their draft capital if they are dropped and subsequently picked up off of waivers/free agency.</p>
+    <p>Players that were not drafted and picked up off free agency/waivers may be kept as a 7th round pick.</p>
+
+    <h3 bind:this={eightThree}>8.3 Keeper Eligibility</h3>
+    <p>Players taken 1st or 2nd rounds are not eligible to be kept the following season.<p>
+    <p>Players picked up off of waivers or free agency must be acquired prior to the Trade Deadline and held through the remainder of the season (postseason included) in order to be Keeper eligible.</p>
 
 </div>
