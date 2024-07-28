@@ -170,9 +170,9 @@
     <p>1 IR Spot (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
-
-        <p>There will be no positional limits for rosters as a whole. If a manager wants to hold 6 QBs and limit their own RB/WR depth, they are free to do so (at their own detriment).</p>
-
+        <div class="subBlock">
+            <p>There will be no positional limits for rosters as a whole. If a manager wants to hold 6 QBs and limit their own RB/WR depth, they are free to do so (at their own detriment).</p>
+        </div>
 <!--
         <div class="subBlock">
             <table class="positionMaximums">
@@ -243,17 +243,17 @@
 
     <div class="subBlock">
             <table class="positionMaximums">
-                <tr><td><u>Draft Order Selection</u></td><td class="right"><u>Previous Year Finish</u></td><td class="right"><u>Lottery Entries</u></td></tr>
-                <tr><td>1st Selection</td><td class="right">Consolation Champion</td><td class="right">Automatic First Selection</td></tr>
-                <tr><td>2nd Selection</td><td class="right">Lowest Remaining Regular Season Rank (10th or 9th)</td><td class="right">300 Entries</td></tr>
-                <tr><td>3rd Selection</td><td class="right">Lowest Remaining Regular Season Rank (9th or 8th)</td><td class="right">250 Entries</td></tr>
-                <tr><td>4th Selection</td><td class="right">Lowest Remaining Regular Season Rank (8th or 7th)</td><td class="right">200 Entries</td></tr>
-                <tr><td>5th Selection</td><td class="right">Lowest Remaining Regular Season Rank (6th or 5th)</td><td class="right">150 Entries</td></tr>
-                <tr><td>6th Selection</td><td class="right">Lowest Remaining Regular Season Rank (5th or 4th)</td><td class="right">125 Entries</td></tr>
-                <tr><td>7th Selection</td><td class="right">Lowest Remaining Regular Season Rank (4th or 3rd)</td><td class="right">100 Entries</td></tr>
-                <tr><td>8th Selection</td><td class="right">Lowest Remaining Regular Season Rank (3rd or 2nd)</td><td class="right">75 Entries</td></tr>
-                <tr><td>9th Selection</td><td class="right">Lowest Remaining Regular Season Rank (2nd or 1st)</td><td class="right">50 Entries</td></tr>
-                <tr><td>10th Selection</td><td class="right">Champion</td><td class="right">10 Entries</td></tr>
+                <tr><td><u>Previous Year Finish</u></td><td class="right"><u>Lottery Entries</u></td></tr>
+                <tr><td>Consolation Champion</td><td class="right">Automatic First Selection</td></tr>
+                <tr><td>Lowest Remaining Regular Season Rank (10th or 9th)</td><td class="right">300 Entries</td></tr>
+                <tr><td>Lowest Remaining Regular Season Rank (9th or 8th)</td><td class="right">250 Entries</td></tr>
+                <tr><td>Lowest Remaining Regular Season Rank (8th or 7th)</td><td class="right">200 Entries</td></tr>
+                <tr><td>Lowest Remaining Regular Season Rank (6th or 5th)</td><td class="right">150 Entries</td></tr>
+                <tr><td>Lowest Remaining Regular Season Rank (5th or 4th)</td><td class="right">125 Entries</td></tr>
+                <tr><td>Lowest Remaining Regular Season Rank (4th or 3rd)</td><td class="right">100 Entries</td></tr>
+                <tr><td>Lowest Remaining Regular Season Rank (3rd or 2nd)</td><td class="right">75 Entries</td></tr>
+                <tr><td>Lowest Remaining Regular Season Rank (2nd or 1st)</td><td class="right">50 Entries</td></tr>
+                <tr><td>Champion</td><td class="right">10 Entries</td></tr>
             </table>
         </div>
 
