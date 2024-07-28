@@ -341,9 +341,11 @@
     </ul>
     <p>A player will retain their draft capital, as well as any multi-year keeper premium, if they are traded. A player will also retain their draft capital if they are dropped and subsequently picked up off of waivers/free agency.</p>
     <p>Players that were not drafted and picked up off free agency/waivers may be kept as a 7th round pick.</p>
+    <p>In the event that a manager would like to keep two players that hold the same draft capital for the upcoming season (and he has less picks in the round in question), he may elect to keep a player at his next, more-valuable draft pick.</p>
+    <p>If a manager holds more than one draft pick in a round where they would like to keep a player, the most valuable pick will be used.</p>
 
     <h3 bind:this={eightThree}>8.3 Keeper Eligibility</h3>
-    <p>Players taken 1st or 2nd rounds are not eligible to be kept the following season.<p>
+    <p>Players taken in the 1st or 2nd rounds are not eligible to be kept the following season.<p>
     <p>Players picked up off of waivers or free agency must be acquired prior to the Trade Deadline and held through the remainder of the season (postseason included) in order to be Keeper eligible.</p>
 
 </div>
