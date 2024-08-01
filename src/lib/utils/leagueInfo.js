@@ -101,22 +101,38 @@ export const managers = [
       "managerID": "862897525244424192",
       "name": "Nate Ruxlow",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "", // (optional)
-      "bio": "",
-      "photo": "/managers/question.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": null, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "location": "Peoria, IL", // (optional)
+      "bio": "UIUC alum. Design engineer for diesel engine components at Caterpillar.  Weekend warrior as a combat engineer in the Army National Guard.  Soon to be married to my wonderful fiancée Sarah in October.  I play the sports. I lift the heavy things. Most importantly, I use the thumbs to dominate the fantasy league.",
+      "photo": "/managers/nate.jpg", // square ratio recommended (no larger than 500x500)
+      "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
+      "favoriteTeam": "kc", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": null, // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
-        name: "none", // Can be anything (usually your rival's name)
-        link: 3, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/question.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+        name: "kyle", // Can be anything (usually your rival's name)
+        link: 2, // manager array number within this array, or null to link back to all managers page
+        image: "/managers/question.jpeg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
-      "favoritePlayer": null, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "favoritePlayer": 515, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "",
-      "tradingScale": 5, // 1 - 10
+      "philosophy": "As a manager, I aim to balance out risk and reward. As a coach, I demand my team follows the proven regimen…
+      \n
+      \nSigma Male Schedule
+      \n2:00am wake up
+      \n2:05 cold shower
+      \n2:20 breakfast - almonds, breast milk bought off facebook, 50 mg adderall
+      \n2:30 workout - incline bench 2 plates, 12x12 w/ 30 second rest, no warmup
+      \n2:45 edging, 4 hrs (for discipline)
+      \n6:45 cold shower
+      \n7:00 begin sprint to work
+      \n8:00 arrive at work
+      \n8:05 get called into boss's office
+      \n8:06 get fired for repeated inappropriate comments & predatory behavior
+      \n8:10 sprint back home
+      \n9:10 lunch - raw cod, berries foraged on way home, small pebbles for digestion, 50 mg adderall
+      \n9:30 edging (as punishment)
+      \n3:00pm bed time",
+      "tradingScale": 7, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
