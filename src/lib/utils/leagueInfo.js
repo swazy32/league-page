@@ -115,23 +115,7 @@ export const managers = [
       "favoritePlayer": 515, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "As a manager, I aim to balance out risk and reward. As a coach, I demand my team follows the proven regimen…
-      \n
-      \nSigma Male Schedule
-      \n2:00am wake up
-      \n2:05 cold shower
-      \n2:20 breakfast - almonds, breast milk bought off facebook, 50 mg adderall
-      \n2:30 workout - incline bench 2 plates, 12x12 w/ 30 second rest, no warmup
-      \n2:45 edging, 4 hrs (for discipline)
-      \n6:45 cold shower
-      \n7:00 begin sprint to work
-      \n8:00 arrive at work
-      \n8:05 get called into boss's office
-      \n8:06 get fired for repeated inappropriate comments & predatory behavior
-      \n8:10 sprint back home
-      \n9:10 lunch - raw cod, berries foraged on way home, small pebbles for digestion, 50 mg adderall
-      \n9:30 edging (as punishment)
-      \n3:00pm bed time",
+      "philosophy": "As a manager, I aim to balance out risk and reward. As a coach, I demand my team follows the proven regimen…\n\nSigma Male Schedule\n2:00am wake up\n2:05 cold shower\n2:20 breakfast - almonds, breast milk bought off facebook, 50 mg adderall\n2:30 workout - incline bench 2 plates, 12x12 w/ 30 second rest, no warmup\n2:45 edging, 4 hrs (for discipline)\n6:45 cold shower\n7:00 begin sprint to work\n8:00 arrive at work\n8:05 get called into boss's office\n8:06 get fired for repeated inappropriate comments & predatory behavior\n8:10 sprint back home\n9:10 lunch - raw cod, berries foraged on way home, small pebbles for digestion, 50 mg adderall\n9:30 edging (as punishment)\n3:00pm bed time",
       "tradingScale": 7, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
