@@ -171,7 +171,7 @@
         <li>K</li>
     </ul>
     
-    <p>5 Bench</p>
+    <p>6 Bench</p>
 
     <p>1 IR Spot (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
