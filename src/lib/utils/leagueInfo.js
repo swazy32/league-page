@@ -78,7 +78,7 @@ export const managers = [
       "name": "Kyle Kallberg",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Colorado Springs, CO", // (optional)
-      "bio": "Grew up playing football, baseball, soccer, and hockey. Carl Sandburg Grad 2016. BS in Mechanical Engineering from UIUC in 2020. Been working for Northrop Grumman for 4 years. Married my wife, Stephanie, in May 2022 and we had our first child, Samuel, in February 2024. Currently training for a marathon in September.",
+      "bio": "Carl Sandburg Grad 2016. BS in Mechanical Engineering from UIUC in 2020. Been working for Northrop Grumman since July 2020. Married my wife, Stephanie, in May 2022 and we had our first child, Samuel, in February 2024.",
       "photo": "/managers/kyle.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -91,7 +91,7 @@ export const managers = [
       "favoritePlayer": 4227, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "I like a good balance between safe plays and high ceiling longshots. I will prioritize whatever my team needs based on how competitive I am.",
+      "philosophy": "Try not to suck.",
       "tradingScale": 5, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
