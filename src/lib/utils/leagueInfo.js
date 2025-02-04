@@ -101,7 +101,7 @@ export const managers = [
       "managerID": "862897525244424192",
       "name": "Nate Ruxlow",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Middle East (Exact Location Classified)", // (optional)
+      "location": "Middle East\n(Exact Location Classified)", // (optional)
       "bio": "UIUC alum. Design engineer for diesel engine components at Caterpillar.  Weekend warrior as a combat engineer in the Army National Guard.  Soon to be married to my wonderful fiancée Sarah in October.  I play the sports. I lift the heavy things. Most importantly, I use the thumbs to dominate the fantasy league.",
       "photo": "/managers/nate.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2017, // (optional) when did the manager start playing fantasy football
