@@ -173,7 +173,7 @@
     
     <p>6 Bench</p>
 
-    <p>1 IR Spot (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>2 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         <div class="subBlock">
@@ -220,7 +220,7 @@
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the week 11 games of the NFL season.</p>
+        <p>The trade deadline will be set for the kickoff of week 11 games of the NFL season. Additionally, draft pick trading will maintain an in-season deadline at the kickoffof week 7 games. Off-season draft pick trading is allowed without restriction so long as all parties involved have paid league dues for the draft picks exchanged. Managers are also permitted to trade keeper rights to another manager during the offseason in exchange for draft picks or other eligible keepers.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
@@ -248,18 +248,22 @@
     <p>The draft order each year will be a lottery system (NBA Draft style) based on reverse order of the previous year’s regular season standings (with the exception of the Champion, who will have the lowest odds regardless of regular season finish). The winner of the previous season's consolation championship will be awarded first selection of draft order position.</p>
 
     <div class="subBlock">
-            <table class="positionMaximums">
-                <tr><td><u>Previous Year Finish</u></td><td class="right"><u>Lottery Entries</u></td></tr>
-                <tr><td>Consolation Champion</td><td class="right">Automatic First Selection</td></tr>
-                <tr><td>Lowest Remaining Regular Season Rank (10th or 9th)</td><td class="right">300 Entries</td></tr>
-                <tr><td>Lowest Remaining Regular Season Rank (9th or 8th)</td><td class="right">250 Entries</td></tr>
-                <tr><td>Lowest Remaining Regular Season Rank (8th or 7th)</td><td class="right">200 Entries</td></tr>
-                <tr><td>Lowest Remaining Regular Season Rank (6th or 5th)</td><td class="right">150 Entries</td></tr>
-                <tr><td>Lowest Remaining Regular Season Rank (5th or 4th)</td><td class="right">125 Entries</td></tr>
-                <tr><td>Lowest Remaining Regular Season Rank (4th or 3rd)</td><td class="right">100 Entries</td></tr>
-                <tr><td>Lowest Remaining Regular Season Rank (3rd or 2nd)</td><td class="right">75 Entries</td></tr>
-                <tr><td>Lowest Remaining Regular Season Rank (2nd or 1st)</td><td class="right">50 Entries</td></tr>
-                <tr><td>Champion</td><td class="right">10 Entries</td></tr>
+            <table class="draftOdds">
+                <thead>
+                    <tr><th><u>Previous Year Finish</u></th><th class="right"><u>Lottery Entries</u></th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Consolation Champion</td><td class="right">Automatic First Selection</td></tr>
+                    <tr><td>Lowest Remaining Regular Season Rank (10th or 9th)</td><td class="right">300 Entries</td></tr>
+                    <tr><td>Lowest Remaining Regular Season Rank (9th or 8th)</td><td class="right">250 Entries</td></tr>
+                    <tr><td>Lowest Remaining Regular Season Rank (8th or 7th)</td><td class="right">200 Entries</td></tr>
+                    <tr><td>Lowest Remaining Regular Season Rank (6th or 5th)</td><td class="right">150 Entries</td></tr>
+                    <tr><td>Lowest Remaining Regular Season Rank (5th or 4th)</td><td class="right">125 Entries</td></tr>
+                    <tr><td>Lowest Remaining Regular Season Rank (4th or 3rd)</td><td class="right">100 Entries</td></tr>
+                    <tr><td>Lowest Remaining Regular Season Rank (3rd or 2nd)</td><td class="right">75 Entries</td></tr>
+                    <tr><td>Lowest Remaining Regular Season Rank (2nd or 1st)</td><td class="right">50 Entries</td></tr>
+                    <tr><td>Champion</td><td class="right">10 Entries</td></tr>
+                </tbody>
             </table>
         </div>
 
@@ -332,7 +336,7 @@
     <h2 class="sectionHeading" bind:this={eight}>Section 8 Keeper Rules</h2>
 
     <h3 bind:this={eightOne}>8.1 Declaring Keepers</h3>
-    <p>A maximum of 3 players can be kept for the next season. Keeper selections must be declared one week before the draft.</p>
+    <p>A maximum of 3 players can be kept for the next season. Keeper selections must be declared one week before the draft as a soft deadline. The keeper selections may be amended up to one hour before the draft.</p>
 
     <h3 bind:this={eightTwo}>8.2 Keeper Values</h3>
     <p>Keeper value will be determined by their draft capital from the previous draft, subtracting one round from the previous draft, and then an additional round for each year the player is kept.</p>
