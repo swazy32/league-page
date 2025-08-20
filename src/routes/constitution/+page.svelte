@@ -8,6 +8,7 @@
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
     let eight, eightOne, eightTwo, eightThree;
+    let append, appendOne, appendTwo, appendThree, appendFour;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -149,6 +150,14 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>8.2 Keeper Values</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(eightThree)}>8.3 Keeper Eligibility</h4>
 
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(append)}>Appendix: Amendments</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(appendOne)}>A.1 IR Expansion</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(appendTwo)}>A.2 Draft Pick Trade Deadline</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(appendThree)}>A.3 Keeper Pick Designation</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(appendFour)}>A.4 Offseason Keeper Trade Ban</h4>
+
+
     <hr />
     
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
@@ -220,7 +229,7 @@
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the kickoff of week 11 games of the NFL season. Additionally, draft pick trading will maintain an in-season deadline at the kickoffof week 7 games. Off-season draft pick trading is allowed without restriction so long as all parties involved have paid league dues for the draft picks exchanged. Managers are also permitted to trade keeper rights to another manager during the offseason in exchange for draft picks or other eligible keepers.</p>
+        <p>The trade deadline will be set for the kickoff of week 11 games of the NFL season. Additionally, draft pick trading will maintain an in-season deadline at the kickoffof week 7 games. Off-season draft pick trading is allowed without restriction so long as all parties involved have paid league dues for the draft picks exchanged. Managers are NOT permitted to trade keeper rights to another manager during the offseason in exchange for draft picks or other eligible keepers.</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
@@ -346,10 +355,45 @@
     <p>A player will retain their draft capital, as well as any multi-year keeper premium, if they are traded. A player will also retain their draft capital if they are dropped and subsequently picked up off of waivers/free agency.</p>
     <p>Players that were not drafted and picked up off free agency/waivers may be kept as a 7th round pick.</p>
     <p>In the event that a manager would like to keep two players that hold the same draft capital for the upcoming season (and he has less picks in the round in question), he may elect to keep a player at his next, more-valuable draft pick.</p>
-    <p>If a manager holds more than one draft pick in a round where they would like to keep a player, the most valuable pick will be used.</p>
+    <p>Keepers may only be attached to a team's own draft picks. Any drafts picks that are obtained via trade with another team are not allowed to be used for a keeper draft pick designation.</p>
 
     <h3 bind:this={eightThree}>8.3 Keeper Eligibility</h3>
     <p>Players taken in the 1st or 2nd rounds are not eligible to be kept the following season.<p>
     <p>Players picked up off of waivers or free agency must be acquired prior to the Trade Deadline and held through the remainder of the season (postseason included) in order to be Keeper eligible.</p>
+
+    <h2 class="sectionHeading" bind:this={append}>Appendix Amendments</h2>
+
+    <h3 bind:this={appendOne}>A.1 IR Expansion</h3>
+    <p>This amendment increases the number of IR slots on each roster from 1 to 2.</p>
+    <p>Date Effective: 7/24/25</p>
+    <p>Sections Updated:</p>
+    <ul>
+        <li class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>Section 1.1</li>
+    </ul>
+
+
+    <h3 bind:this={appendTwo}>A.2 Draft Pick Trade Deadline</h3>
+    <p>This amendment adds an additional trade deadline that applies to trades involving draft picks.</p>
+    <p>Date Effective: 7/24/25</p>
+    <p>Sections Updated:</p>
+    <ul>
+        <li class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>Section 1.2.3</li>
+    </ul>
+
+    <h3 bind:this={appendThree}>A.3 Keeper Pick Designation</h3>
+    <p>This amendment forces keeper designations to be assigned solely to a team's own draft picks rather than any picks that are acquired via trade.</p>
+    <p>Date Effective : 8/18/25</p>
+    <p>Sections Updated:</p>
+    <ul>
+        <li class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>Section 8.2</li>
+    </ul>
+
+   <h3 bind:this={appendFour}>A.4 Offseason Keeper Trade Ban</h3>
+    <p>This amendment explicitly bans the trading of keeper eligble players during the offseason.</p>
+    <p>Date Effective: 8/18/25</p>
+    <p>Sections Updated:</p>
+    <ul>
+        <li class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>Section 1.2.3</li>
+    </ul>
 
 </div>
