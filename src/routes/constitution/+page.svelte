@@ -8,7 +8,7 @@
     let six, sixOne, sixTwo, sixThree;
     let seven, sevenOne, sevenTwo, sevenThree;
     let eight, eightOne, eightTwo, eightThree;
-    let append, appendOne, appendTwo, appendThree, appendFour;
+    let append, appendOne, appendTwo, appendThree, appendFour, appendFive;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -156,6 +156,7 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(appendTwo)}>A.2 Draft Pick Trade Deadline</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(appendThree)}>A.3 Keeper Pick Designation</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(appendFour)}>A.4 Offseason Keeper Trade Ban</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(appendFive)}>A.5 IR Eligibility Restriction</h4>
 
 
     <hr />
@@ -182,7 +183,7 @@
     
     <p>6 Bench</p>
 
-    <p>2 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>2 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App. Suspended/Holdout players are not eligible for IR)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         <div class="subBlock">
@@ -394,6 +395,14 @@
     <p>Sections Updated:</p>
     <ul>
         <li class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>Section 1.2.3</li>
+    </ul>
+
+   <h3 bind:this={appendFive}>A.5 IR Eligibility Restriction</h3>
+    <p>This amendment restricts suspended and holdout players from being placed on a team's IR.</p>
+    <p>Date Effective: 8/21/25</p>
+    <p>Sections Updated:</p>
+    <ul>
+        <li class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>Section 1.1</li>
     </ul>
 
 </div>
