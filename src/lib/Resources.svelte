@@ -97,6 +97,14 @@ import { dynasty } from './utils/helper';
             separator: false,
             dynastyOnly: false,
         },
+        {
+            name: "Keeper Cost Database",
+            url: "https://docs.google.com/spreadsheets/d/1dyPEB6GmXk2k2RKsKJ1kStlC7ejQ6upHzFKwDzLz5NI/edit?usp=sharing",
+            icon: "calculate",
+            premium: false,
+            separator: false,
+            dynastyOnly: false,
+        },
     ];
 </script>
 
